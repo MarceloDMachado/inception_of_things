@@ -1,0 +1,6 @@
+Vagrant.configure("2") do |config|
+	config.vm.box = "hashicorp/bionic64"
+	config.vm.box_version = "1.0.282"
+	config.vm.base_address = "192.168.56.111"
+	config.vm.hostname = "madias-mS"
+end 
